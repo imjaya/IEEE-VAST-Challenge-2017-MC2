@@ -1,0 +1,213 @@
+#timeline-container svg {
+  font: 10px sans-serif;
+}
+
+#timeline-container .area {
+  fill: steelblue;
+  fill-opacity: 0.7;
+}
+
+#timeline-container .axis path,
+#timeline-container .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#timeline-container .brush .extent {
+  stroke: #fff;
+  fill: #000;
+  fill-opacity: .25;
+  shape-rendering: crispEdges;
+}
+
+
+
+
+#column-container .axis text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20pt;
+}
+#column-container .axis .label {
+  font-size: 20pt;
+}
+
+#column-container .axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#column-container .x.axis text {
+  font-size: 20pt;
+}
+
+
+#column-container {
+  margin:auto;
+  width:650px;
+  display: inline;
+}
+
+#column-container svg {
+  border:1px solid gray;
+  margin:5px;
+
+}
+
+#column-container .x-axis text {
+  font-size: 7px;
+  }
+
+#radialchart, #col{
+  display: inline-block;
+  width: 650px;
+}
+#radialchart svg{
+  margin: 0px auto;
+  display: block;
+}
+
+#radialchart path.arc {
+  opacity: 0.9;
+  transition: opacity 0.5s;
+}
+
+#radialchart path.arc:hover {
+  opacity: 0.7;
+}
+
+#radialchart .axis line, .axis circle  {
+  stroke: #cccccc;
+  stroke-width: 1px
+}
+
+#radialchart .axis circle {
+  fill: none;
+}
+
+#radialchart .r.axis text {
+  text-anchor: end
+}
+
+#radialchart .tooltip {
+  position: absolute;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  box-shadow: -3px 3px 15px #888;
+  color: white;
+  padding: 6px;
+}
+
+#radialchart svg{
+  border:1px solid gray;
+  margin:5px;
+}
+
+
+
+  text.mono {
+    font-size: 6.5pt;
+    font-family: Consolas, courier;
+    fill: #aaa;
+  }
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;   
+}
+
+text.mono {
+  font-size: 6.5pt;
+  font-family: Consolas, courier;
+  fill: #aaa;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+div.tooltip-map {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  box-shadow: -3px 3px 15px #888;
+  color: white;
+  padding: 6px;
+  font-size: 0.8rem;
+}
+
+.left-div
+{
+  width:25%;
+}
+
+.middle-div
+{
+  width:50%;
+}
+
+.right-div
+{
+  width:25%;
+}
+#line-container .line {
+  fill: none;
+  stroke: #ffab00;
+  stroke-width: 1;
+}
+
+.line {
+fill: none;
+stroke: #ffab00;
+stroke-width: 3;
+}
+
+.overlay {
+fill: none;
+pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+
+
+  .point {
+    stroke: none;
+    fill: #9c9c9c;
+    }
+
+    div.tooltip-donut {
+      position: absolute;
+      text-align: center;
+      padding: .5rem;
+      background: #535151e7;
+      color: #e8eaeb;
+      border: 2px solid #313639;
+      border-radius: 30px;
+      pointer-events: none;
+      font-size: 1rem;
+    }
+
+
+    #line-container svg {
+      border:1px solid gray;
+      margin:10px;
+    
+    }
+
+    #heatsvg{
+      border:1px solid gray;
+      margin:10px;
+    
+    }
+
+
+    
