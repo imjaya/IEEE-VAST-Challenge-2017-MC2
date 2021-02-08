@@ -6,13 +6,13 @@ Visual Analysis of VAST 2017 Mini Challenge 2
 # Visual Analysis of VAST 2017 Mini Challenge 2
 
 ## Team Members
-
+- [Jayasurya Sevalur Mahendran](https://www.github.com/imjaya)
 - [Raghavendhar T V](https://www.github.com/raghav1397)
 - [Ashish Santha Kumar](https://www.github.com/AshishSanthaKumar)
 - [Sriprashanth Ramamoorthy](https://www.github.com/rspixers)
 - [Venkatramanan Srinivasan](https://www.github.com/Venkat19967)
 - [Omar Alnoman](https://www.github.com/oalnoman)
-- [Jayasurya Sevalur Mahendran](https://www.github.com/imjaya)
+
 
 ## The Visual Dashboard 
 
